@@ -6,22 +6,28 @@ body{
   width: 100%;
   height: 100vh;
 }
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 20px;
-    padding-right: 75px;
-    position: -webkit-sticky;
-  position: sticky;
-  top: 1px;
+
+#navigation{
+  display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 20px;
+      padding-right: 75px;
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0px; 
 }
+
 .logo{
   padding-left: 15px;
 }
-ul li a:hover{
-    color: gray;
+a:hover, .scrolled a:hover {
+  color: gray;
 }
+a:hover {
+  color: gray;
+}
+
 ul{
    
     list-style-type: none;
@@ -37,6 +43,16 @@ li a {
     font-family:Arial, Helvetica, sans-serif;
     font-weight: bold;
   }
+
+  .new li a{
+    color: black;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+
   p{
     left: 10px
   }
@@ -70,33 +86,52 @@ li a {
   display: inline-block;
   text-align: center;
 }
-#about{
-  width: auto;
-  height: 100vh;
-}
 
-#about .top{
+#about .top, #features .top, #footer .top{
   width: auto;
   height: 30vh;
   background-color: dodgerblue;
 }
-#about .bottom{
-  width: auto;
-  height: 70vh;
-  background-color: white;
+
+.description, .features, .benef{
+text-align: center;
+font-size: 55px;
+padding-top: 53px;
+margin: 0px;
 }
 
-#contact{
-  width: auto;
-  height: 100vh;
-  background-color: dodgerblue;
+.description-text{
+  text-align: justify;
+  font-size: 23px;
+  width: 1200px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: darkslategray;
+}
+.bottom p {
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#footer{
+#about,#features,#footer{
   width: auto;
   height: 100vh;
   background-color: white;
 }
+.patients,.pharmacist ,.health{
+text-align: justify;
+font-size: 17px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-bottom{
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+}
+  .footer-bottom p{
+color: darkslategray;
+  }
 
 footer{
   background-color: gray;
