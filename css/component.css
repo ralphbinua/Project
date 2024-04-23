@@ -1,0 +1,227 @@
+body{
+    margin: 0px;
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navigation{
+    display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 20px;
+        padding-right: 75px;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0px; 
+  }
+  
+  .logo{
+    padding-left: 15px;
+  }
+  a:hover, .scrolled a:hover {
+    color: gray;
+  }
+  a:hover {
+    color: gray;
+  }
+  
+  ul{
+     
+      list-style-type: none;
+  }
+  li{
+      display: inline-block;
+  }
+  li a {
+      color: black;
+      text-align: center;
+      padding: 20px 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  
+    .new li a{
+      color: black;
+      text-align: center;
+      padding: 20px 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    p{
+        left: 10px
+      }
+      img{
+        height: 50px;
+        margin-left: 20px;
+        margin-bottom: 10px;
+      }
+  
+.component{
+    font-size: 42px;
+    text-align: center;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+}
+.under-score{
+width: 750px;
+  height: 12px;
+  background-color:dodgerblue;
+  display: block;
+  margin: 0 auto;  
+}
+
+.blue-divider{
+    width: auto;
+    height: 100px;
+    background-color: dodgerblue;
+    margin-top: 40px;
+}
+
+.keypad, .storage, .changer, .lcd,.camera, .power, .arduino, .servo, .bread, .sheet, .steel, .led, .cable{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 0px;
+    padding-top: 55px;
+}
+
+.keypad-logo{
+    width: 350px;
+    height: auto;
+    margin-left: 70px;
+}
+.changer-storage{
+    width: 100%;
+    height: auto;
+}
+
+.changer-storage .top{
+    width: 100%;
+    height: auto;
+    background-color: dodgerblue;
+}
+.changer-storage .bottom{
+    width: 100%;
+    height: auto;
+    background-color:white ;
+}
+
+.changer-logo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.changer-logo img{
+    width: 150px;
+    height: auto;
+    margin-left: 70px;
+}
+
+.storage-logo, .lcd-logo, .camera-logo, .power-logo, .arduino-logo, .servo-logo, .bread-logo, .sheet-logo, .steel-logo, .led-logo, .cable-logo{
+    width: 350px;
+    height: auto;
+    margin-left: 70px;
+}
+
+.arduino-logo{
+    margin-top: 80px;
+}
+
+.storage-description-top h1, .changer-top h1, .top h1, .lcd-top h1, .camera-top h1, .power-top h1, .arduino-top h1, .servo-top h1, .bread-top h1, .sheet-top h1 ,.steel-top h1, .led-top h1, .cable-top h1{
+    margin: 0px;
+    text-align: center;
+}
+.storage-description-bottom p, .changer-bottom p, .bottom p, .lcd-bottom p, .camera-bottom p, .power-bottom p, .arduino-bottom p, .servo-bottom p, .bread-bottom p, .sheet-bottom p, .steel-bottom p, .led-bottom p ,.cable-bottom p{
+    width: 750px;
+    text-align: justify;
+    margin-left: 40px;
+  color: darkslategray;
+  font-size: 22px;
+}
+
+.power-supply{
+    width: 100%;
+    height: 100vh;
+}
+
+.lcd-camera{
+    width: 100%;
+    height: auto;
+}
+
+.lcd-camera .top{
+    width: 100%;
+    height: auto;
+    background-color: dodgerblue;
+}
+.lcd-camera .bottom{
+    width: 100%;
+    height: auto;
+    background-color:white ;
+}
+
+.power-arduino{
+    width: 100%;
+    height: auto;
+}
+
+.power-arduino .top{
+    width: 100%;
+    height: auto;
+    background-color: dodgerblue;
+}
+.power-arduino .bottom{
+    width: 100%;
+    height: auto;
+    background-color:white ;
+}
+
+.servo-bread{
+    width: 100%;
+    height: auto;
+}
+
+.servo-bread .top{
+    width: 100%;
+    height: auto;
+    background-color: dodgerblue;
+}
+.servo-bread .bottom{
+    width: 100%;
+    height: auto;
+    background-color:white ;
+}
+
+.sheet-cable{
+    width: 100%;
+    height: auto;
+}
+
+.sheet-cable .top{
+    width: 100%;
+    height: auto;
+    background-color: dodgerblue;
+}
+.sheet-cable .bottom{
+    width: 100%;
+    height: auto;
+    background-color:white ;
+}
+
+.led-steel{
+    width: 100%;
+    height: auto;
+}
+
+.led-steel .top{
+    width: 100%;
+    height: auto;
+    background-color: dodgerblue;
+}
+.led-steel .bottom{
+    width: 100%;
+    height: auto;
+    background-color:white ;
+}
